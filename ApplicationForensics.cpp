@@ -26,10 +26,10 @@ void function_401000()
 		}
 		else
 		{
-			//++var_4;
-			edxREG = var_4;
+			++var_4;
+			/*edxREG = var_4;
 			edxREG++;
-			var_4 = edxREG;
+			var_4 = edxREG;*/
 		}
 	}
 	loc_401025: eaxREG = var_4;
@@ -68,10 +68,10 @@ void function_401000()
 			ecxREG = var_4;
 			ecxREG -= 1;
 			var_4 = ecxREG;
-			//++var_c;
-			edxREG = var_c;
+			++var_c;
+		/*	edxREG = var_c;
 			edxREG += 1;
-			var_c = edxREG;
+			var_c = edxREG; */
 
 
 		}
